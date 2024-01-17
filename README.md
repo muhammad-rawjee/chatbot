@@ -1,4 +1,5 @@
 # Customer Service Chatbot
+## Description
 
 ## Installation
 
@@ -21,10 +22,10 @@ $ pip install -r requirements.txt
 ## Usage
 Run
 ```console
-python train.py
+$ python train.py
 ```
 This will dump `data.pth` file. And then run
 ```console
-python app.py
+$ python app.py
 ```
-
+## Demo
