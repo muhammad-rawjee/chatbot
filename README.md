@@ -8,13 +8,23 @@ $ cd myproject
 $ python3 -m venv venv
 ```
 
-### Install dependencies
-```console
-$ pip install -r requirements.txt
-```
-
 ### Activate it
 Mac / Linux:
 ```console
 . venv/bin/activate
 ```
+
+### Install dependencies
+```console
+$ pip install -r requirements.txt
+```
+## Usage
+Run
+```console
+python train.py
+```
+This will dump `data.pth` file. And then run
+```console
+python app.py
+```
+
