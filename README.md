@@ -1,5 +1,6 @@
 # Customer Service Chatbot
 ## Description
+Built a chat bot that uses a simple two layer Feedforward neural network (FNN), trained on input given in ```intents.json``` that processes user input and  
 
 ## Installation
 
