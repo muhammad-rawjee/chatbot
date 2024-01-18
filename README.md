@@ -1,7 +1,6 @@
 # Customer Service Chatbot
 ## Description
-Built a chat bot that uses a simple two layer Feedforward neural network (FNN), trained on input given in ```intents.json``` that processes user input and  
-
+Built a chat bot that uses a simple two layer Feedforward neural network (FNN), trained on inputs given in ```intents.json```, the program then dumps the trained data on file ```data.pth```. The chatbot uses the trained data to check how similar the users response is to a given ```intent``` and if there is a similarity, the bot generates a response that matches that ```intent or context```, it pulls this response from our ```intents.json``` file
 ## Installation
 
 ### Create an environment
